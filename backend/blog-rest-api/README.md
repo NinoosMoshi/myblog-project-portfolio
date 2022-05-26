@@ -15,8 +15,8 @@ it's a class that has methods used for security, the important two methods are:<
 
 
 <span style="color:#9932CC">1- configure(AuthenticationManagerBuilder auth).</span>
+![](C:\Users\ninoo\OneDrive\Desktop\blog-application-project\backend\blog-rest-api\images\authentication-manager.png)
 
-![](C:\Users\ninoo\OneDrive\Desktop\images\authentication-manager.png)
 <p>it will matches (username and password) That came from a client with  (username and password) from the Database</p>
 
 
@@ -28,7 +28,7 @@ it's a class that has methods used for security, the important two methods are:<
 
 
 **<span style="color:#8B008B">csrf()</span>**
-![](C:\Users\ninoo\OneDrive\Desktop\images\csrf.png)
+![](C:\Users\ninoo\OneDrive\Desktop\blog-application-project\backend\blog-rest-api\images\csrf.png)
 
 <p>
 we disable cross site request forgery(csrf) to allow a client
@@ -37,12 +37,25 @@ to access to server
 
 
 # Create User and Authorities entity
-![](C:\Users\ninoo\OneDrive\Desktop\images\aa.png)
-![](C:\Users\ninoo\OneDrive\Desktop\images\bb.png)
+![](C:\Users\ninoo\OneDrive\Desktop\blog-application-project\backend\blog-rest-api\images\aa.png)
+![](C:\Users\ninoo\OneDrive\Desktop\blog-application-project\backend\blog-rest-api\images\bb.png)
 
 
 <h3>create UserRepository</h3>
 <span>and</span>
 <h3>AuthoritiesRepository</h3>
+
+
+# Authentication Manager
+
+![](C:\Users\ninoo\OneDrive\Desktop\blog-application-project\backend\blog-rest-api\images\springsecurity.png)
+
+<h3>DaoAuthenticationProvider</h3>
+<span>it does two things : </span> <br/>
+1- encode a password in the database.<br/>
+2- retrieve a data from the database by having a service.
+
+<br/>
+
 
 
