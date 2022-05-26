@@ -15,7 +15,7 @@ it's a class that has methods used for security, the important two methods are:<
 
 
 <span style="color:#9932CC">1- configure(AuthenticationManagerBuilder auth).</span>
-![](images\authentication-manager.png)
+![](images/authentication-manager.png)
 
 <p>it will matches (username and password) That came from a client with  (username and password) from the Database</p>
 
@@ -28,7 +28,7 @@ it's a class that has methods used for security, the important two methods are:<
 
 
 **<span style="color:#8B008B">csrf()</span>**
-![](images\csrf.png)
+![](images/csrf.png)
 
 <p>
 we disable cross site request forgery(csrf) to allow a client
@@ -37,8 +37,8 @@ to access to server
 
 
 # Create User and Authorities entity
-![](images\aa.png)
-![](bb.png)
+![](images/aa.png)
+![](images/bb.png)
 
 
 <h3>create UserRepository</h3>
@@ -48,7 +48,7 @@ to access to server
 
 # Authentication Manager
 
-![](images\springsecurity.png)
+![](images/springsecurity.png)
 
 <h3>DaoAuthenticationProvider</h3>
 <span>it does two things : </span> <br/>
